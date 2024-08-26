@@ -2,9 +2,9 @@ import drone5 from "../assets/Images/drone5.png";
 
 const About = () => {
   return (
-    <div className="grid grid-cols-2 h-screen mt-20">
+    <div className="grid grid-cols-1 md:grid-cols-2 h-screen mt-20">
       <img src={drone5} alt="" />
-      <div className="flex justify-center items-center flex-col">
+      <div className="flex justify-center  items-center flex-col">
         <h1 className="text-3xl uppercase mb-4">About Us</h1>
         <hr className="w-16 h-1 bg-black"></hr>
         <p className="flex self-center my-10 mx-16">
